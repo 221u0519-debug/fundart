@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Axel Velasco">
+    <title>Contacto | Axel Velasco</title>
+
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .navbar {
+    background-color: #0d6efd !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+  }
+
+  h1 {
+    color: #0d6efd;
+    font-weight: bold;
+    text-shadow: 0 0 15px rgba(13, 110, 253, 0.5);
+  }
+
+  h4 {
+    color: #0d6efd;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    background-color: #f5f5f5;
+    padding: 1rem 0;
+  }
+
+  /* --- Redes sociales en dos columnas --- */
+  .social-columns {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+  }
+
+  .social-column ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .social-column li {
+    margin-bottom: 10px;
+  }
+
+  /* --- EFECTO HOVER --- */
+  .social-column img {
+    transition: transform 0.2s ease, filter 0.2s ease;
+  }
+
+  .social-column img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.4);
+  }
+</style>
+
+  </head>
+
+  <body>
+
+    <main>
+      <div class="container mb-5">
+
+        <!-- Header -->
+        <header class="d-flex flex-wrap py-3 mb-5 border-bottom">
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">Axel Velasco</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Acerca de mí</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="metas.html">Mis metas</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contacto.html">Contacto</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <!-- Contacto -->
+        <div class="row mb-5">
+          <div class="col-md-12 text-center">
+            <h1>Contacto</h1>
+            <p class="mt-3">Puedes usar los siguientes medios para contactarme:</p>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- Datos de contacto izquierda -->
+          <div class="col-md-6">
+            <h4>Datos de Contacto</h4>
+
+            <div class="mb-3">
+              <img src="Iconos/dirección.svg" alt="Dirección" width="32" height="32">
+              Av. Lunitas # 386 - San Andres Tuxtla
+            </div>
+
+            <div class="mb-3">
+              <img src="iconos/telephone-forward-fill.svg" alt="Teléfono" width="32" height="32">
+              444 4444 | 999 999 999
+            </div>
+
+            <div class="mb-3">
+              <img src="iconos/email.svg" alt="Email" width="32" height="32">
+              axel@miproyecto.com
+            </div>
+          </div>
+
+          <!-- Redes sociales derecha -->
+          <div class="col-md-6">
+            <h4>Redes Sociales</h4>
+
+            <div class="social-columns">
+
+              <!-- Columna 1 -->
+              <div class="social-column">
+                <ul>
+                  <li><a href="https://x.com/"><img src="Iconos/twitter.svg" width="32" height="32"></a></li>
+                  <li><a href="https://www.facebook.com/Axel.Velasco.SJ"><img src="Iconos/facebook.svg" width="32" height="32"></a></li>
+                  <li><a href="https://www.youtube.com/"><img src="Iconos/youtube.svg" width="32" height="32"></a></li>
+                </ul>
+              </div>
+
+              <!-- Columna 2 -->
+              <div class="social-column">
+                <ul>
+                  <li><a href="https://www.instagram.com/"><img src="Iconos/instagram.svg" width="32" height="32"></a></li>
+                  <li><a href="https://open.spotify.com/intl-es"><img src="Iconos/spotify.svg" width="32" height="32"></a></li>
+                  <li><a href="#"><img src="Iconos/whatsapp.svg" width="32" height="32"></a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Mapa -->
+        <div class="row mt-5">
+          <div class="col-md-12 text-center">
+            <h4>Ubicación</h4>
+            <p class="mb-3">San Andrés Tuxtla, Veracruz, México</p>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.727617451914!2d-95.223!3d18.448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c29fb107bd0fc9%3A0x46eefb4e93c0c7c9!2sSan%20Andr%C3%A9s%20Tuxtla%2C%20Veracruz!5e0!3m2!1ses!2smx!4v1700000000000"
+              width="500"
+              height="300"
+              style="border:3px solid #0d6efd; border-radius:10px;"
+              allowfullscreen=""
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto">
+      <div class="container text-center">
+        <span class="text-muted">© Axel Velasco
+          <script>document.write(new Date().getFullYear());</script>
+        </span>
+      </div>
+    </footer>
+
+    <!-- JS Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

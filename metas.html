@@ -1,0 +1,179 @@
+<!doctype html> 
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Axel Velasco">
+    <title>Mis Metas | Axel Velasco</title>
+
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos personalizados -->
+    <style>
+      body {
+        background-color: #000; /* Fondo negro */
+        color: #fff; /* Texto blanco */
+      }
+
+      .navbar {
+        background-color: #0d6efd !important; /* Azul Bootstrap */
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+
+      .navbar-brand, .nav-link {
+        color: #fff !important;
+        font-weight: 500;
+      }
+
+      .nav-link:hover {
+        text-decoration: underline;
+      }
+
+      .navbar-nav {
+        margin-left: auto; /* Mover elementos de menú a la derecha */
+      }
+
+      h2 {
+        color: #0d6efd;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        text-shadow: 0 0 15px rgba(13, 110, 253, 0.8), 0 0 30px rgba(13, 110, 253, 0.5);
+      }
+
+      h4 {
+        color: #0dcaf0;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        text-shadow: 0 0 10px rgba(13, 202, 240, 0.8), 0 0 20px rgba(13, 202, 240, 0.4);
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+      }
+
+      footer {
+        background-color: #111;
+        padding: 1rem 0;
+      }
+
+      footer span {
+        color: #aaa;
+      }
+
+      /* Estilo para imagen */
+      .image-container {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .image-container img {
+        width: 350px;
+        height: auto;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="container mb-5">
+
+        <!-- Navbar -->
+        <header class="d-flex flex-wrap py-3 mb-5 border-bottom">
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">Axel Velasco</a>
+              <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Acerca de mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="metas.html">Mis metas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <!-- Contenido principal -->
+        <div class="row">
+          <div class="text-center mt-5 mb-3">
+            <h2>Mis Metas</h2>
+          </div>
+
+          <!-- IMAGEN -->
+          <div class="image-container">
+            <img src="imgmetas/metas.jpg" alt="Imagen relacionada con metas">
+          </div>
+
+          <div class="col-12">
+            <div class="p-4">
+
+              <p>
+                Mi principal meta es seguir desarrollando mis habilidades dentro del área de Tecnologías de la Información, 
+                especialmente en programación, administración de servidores y gestión de bases de datos. Me esfuerzo 
+                continuamente por fortalecer mis conocimientos técnicos para convertirme en un profesional capaz de 
+                resolver problemas reales mediante soluciones innovadoras y funcionales.
+              </p>
+
+              <p>
+                A corto plazo, busco completar con éxito mis estudios y consolidar mi experiencia a través de proyectos 
+                escolares y personales que me permitan aplicar lo aprendido en entornos prácticos. Me interesa seguir 
+                participando en actividades relacionadas con auditoría informática, redes, ciberseguridad y desarrollo 
+                de software.
+              </p>
+
+              <p>
+                A mediano plazo, deseo obtener certificaciones en áreas 
+                como Linux, bases de datos, seguridad informática y programación avanzada.
+              </p>
+
+              <p>
+                A largo plazo, mi meta es convertirme en un experto en TI, capaz de liderar proyectos tecnológicos y 
+                contribuir al diseño de soluciones que mejoren la eficiencia, seguridad y funcionamiento de los sistemas 
+                informáticos. También me gustaría continuar actualizándome constantemente para mantenerme al día con las 
+                nuevas tecnologías y tendencias del sector.
+              </p>
+
+              <p>
+                Mi compromiso es seguir aprendiendo, creciendo y superando retos que me acerquen cada vez más a mis 
+                objetivos profesionales.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto">
+      <div class="container text-center">
+        <span class="text-muted">© Axel Velasco 
+          <script>document.write(new Date().getFullYear());</script>
+        </span>
+      </div>
+    </footer>
+
+    <!-- JS Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
